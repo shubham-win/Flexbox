@@ -1,0 +1,5 @@
+Justify content -- To handle distribution and align on main axis.
+Align-items -- To handle distribution on cross axis.
+Gap --  it defines the size of the gap between the rows and between the columns in flexbox layout.
+Flex-direction -- It specifies the direction of the flex items inside the flex container.         
+Flex-wrap -- This property allows flex item to wrap in multiple lines.

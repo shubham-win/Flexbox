@@ -1,0 +1,213 @@
+body{
+    width: 1460px;
+    height: 1100px;
+    background-color: white;
+    border: 1px solid black;
+    font-family:  Arial, Helvetica, sans-serif;
+
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    padding: 0px;
+}
+.left-section {
+    width: 50%;
+    padding-inline-start: 20px;
+}
+
+
+.nav {
+    display: flex;
+    padding: 20px;
+}
+
+.logo {
+    display: inline-flex;
+    justify-items: start;
+    gap: 10PX;
+    flex-direction: row;
+
+}
+
+.container {
+    padding-inline-start: 35%;
+}
+
+.c1 {
+    display: flex;
+    padding: 5px;
+    gap: 20px;
+    padding: 5px;
+}
+
+.c2 {
+    display: flex;
+    padding: 5px;
+    gap: 30px;
+}
+
+.login {
+    background-color: #ff8c00;
+    color: white;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.register {
+    background-color: #ffffff;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.agent-login {
+    background-color: #ffffff;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+h1 {
+    color: #333;
+    margin: 20px;
+    margin-top: 50px;
+    text-align: start;
+    margin-bottom: 20px;
+    line-height: 20px;
+    padding-top: 50px;
+}
+.slogan {
+    display: flex;
+    margin: 20px;
+    margin-top: 20px;
+    justify-content: start;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.slogan span {
+    font-size: 20px;
+    color: #333;
+}
+.slogan span:nth-child(1) {
+    color: rgb(43, 219, 43);
+}
+
+.slogan span:nth-child(2) {
+    color: orange;
+}
+
+.container1 {
+    margin-top: 100px;
+    display: flex;
+    width: fit-content;
+    padding: 20px;
+    gap: 20px;
+}
+
+.blue-button {
+    background-color: #170252;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    width: max-content;
+    height: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.gray-button {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 1px solid gray;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    width: max-content;
+    height: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ticket-info {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 10px 10px 20px;
+    display: flex;
+    font-size: small;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}
+
+.text p {
+    margin: 0;
+    color: #666;
+}
+
+.text h2 {
+    margin: 5px 0;
+    color: #333;
+}
+
+svg{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.form-control {
+    border: 0px;
+}
+
+.form-control:focus {
+    outline: none;
+    border: 0px;
+}
+
+.button3{
+    padding: 10px;
+    margin: 10px;
+}
+
+.btn{
+    border-radius: 2px;
+    background-color: limegreen;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+.right-section {
+    width: 50%;
+}
+.train-image img {
+    width: 100%;
+    height: 100%;
+}
